@@ -1,7 +1,9 @@
-#include<iostream>
-using namespace std;
-int main()
-{
-    cout<<"Hello World";
-    return 0;
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+h1 {
+    color: #1877f2;
 }
