@@ -1,0 +1,10 @@
+# Quality Assurance & Test Case Documentation
+
+| Test ID | Component / Module | Test Scenario | Expected Outcome | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **TC-01** | Task Input | Submitting an empty string | Form prevents submission and shows error/alert | Passed |
+| **TC-02** | Task Input | Submitting valid task text | Task is added to the list and saved to localStorage | Passed |
+| **TC-03** | Task Actions | Clicking the complete checkbox | Task text toggles strike-through style | Passed |
+| **TC-04** | Task Actions | Clicking the delete button | Task is completely removed from state and UI | Passed |
+| **TC-05** | Edge Cases | Input containing HTML/JS tags | Tags are escaped safely to prevent XSS vulnerabilities | Passed |
+| **TC-06** | Persistence | Refreshing the web browser | Previously added tasks remain populated | Passed |
